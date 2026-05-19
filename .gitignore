@@ -4,7 +4,7 @@
 
 # 1. Ignore your specific auto-saves, backups, and lock files
 HAB4-PCB1-backups/
-#auto_saved_files#
+\#auto_saved_files\#
 *.lck
 
 # 2. General KiCad auto-saves and backups (just in case names change)
