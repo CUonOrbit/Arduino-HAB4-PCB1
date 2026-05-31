@@ -1270,7 +1270,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SHILLEHTEK_IIC_I2CLogicLevelConverter"
+			(property "Reference" "SHILLEHTEK_IIC_I2CLogicLevelConverter1"
 				(at -9.398 5.08 0)
 				(effects
 					(font
@@ -1288,7 +1288,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "My_Footprints2:I2C_LogicLevelConverter"
 				(at 0 0 0)
 				(show_name)
 				(effects
@@ -1517,7 +1517,7 @@
 				(pin passive line
 					(at -5.08 -7.62 0)
 					(length 3.81)
-					(name "LV3"
+					(name "LV"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1553,7 +1553,7 @@
 				(pin passive line
 					(at -5.08 -12.7 0)
 					(length 3.81)
-					(name "LV4"
+					(name "LV3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1571,7 +1571,7 @@
 				(pin passive line
 					(at -5.08 -15.24 0)
 					(length 3.81)
-					(name "LV"
+					(name "LV4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1625,7 +1625,7 @@
 				(pin passive line
 					(at 20.32 -7.62 180)
 					(length 3.81)
-					(name "HV3"
+					(name "HV"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1661,7 +1661,7 @@
 				(pin passive line
 					(at 20.32 -12.7 180)
 					(length 3.81)
-					(name "HV4"
+					(name "HV3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1679,7 +1679,7 @@
 				(pin passive line
 					(at 20.32 -15.24 180)
 					(length 3.81)
-					(name "HV"
+					(name "HV4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3418,16 +3418,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 97.79) (xy 170.18 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f15ce27-da4b-48e8-bcf8-caadff334c29")
-	)
-	(wire
-		(pts
 			(xy 45.72 71.12) (xy 121.92 71.12)
 		)
 		(stroke
@@ -3435,16 +3425,6 @@
 			(type default)
 		)
 		(uuid "72fd8b68-faa8-4ff6-b031-9671a546a60c")
-	)
-	(wire
-		(pts
-			(xy 218.44 67.31) (xy 218.44 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81614c87-c2e1-4ddb-94e9-4a1ead649bcd")
 	)
 	(wire
 		(pts
@@ -3558,6 +3538,16 @@
 	)
 	(wire
 		(pts
+			(xy 195.58 90.17) (xy 218.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af482cb5-14e5-4545-8d74-c29f8fa7183f")
+	)
+	(wire
+		(pts
 			(xy 93.98 134.62) (xy 93.98 140.97)
 		)
 		(stroke
@@ -3568,6 +3558,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 76.2) (xy 153.67 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b05c5830-d5f1-47d1-8f11-83b10e1bc30e")
+	)
+	(wire
+		(pts
 			(xy 144.78 60.96) (xy 144.78 72.39)
 		)
 		(stroke
@@ -3575,16 +3575,6 @@
 			(type default)
 		)
 		(uuid "bd33d935-f6ac-4a9c-977d-a8bf649180d9")
-	)
-	(wire
-		(pts
-			(xy 195.58 97.79) (xy 218.44 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c22a6895-5951-4748-a87e-e3a232218936")
 	)
 	(wire
 		(pts
@@ -3678,6 +3668,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 90.17) (xy 153.67 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbdf86b8-ba51-43bc-8d4f-954b17cccd4c")
+	)
+	(wire
+		(pts
 			(xy 173.99 67.31) (xy 139.7 67.31)
 		)
 		(stroke
@@ -3705,16 +3705,6 @@
 			(type default)
 		)
 		(uuid "dfeee7b2-8b19-4ae4-87fe-711b09392d47")
-	)
-	(wire
-		(pts
-			(xy 153.67 76.2) (xy 153.67 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e297b954-9a0f-4b25-b813-3afcbfc26aca")
 	)
 	(wire
 		(pts
@@ -3795,6 +3785,16 @@
 			(type default)
 		)
 		(uuid "f91a0a6b-62e4-4805-b100-eec1581e929f")
+	)
+	(wire
+		(pts
+			(xy 218.44 67.31) (xy 218.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f962681b-a613-4b98-baa7-d8746c7515ee")
 	)
 	(wire
 		(pts
