@@ -4834,7 +4834,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "My_Footprints2:JCLPCB_THT_LED_D5.0mm"
 			(at 93.98 130.81 0)
 			(effects
 				(font
@@ -4983,7 +4983,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "My_Footprints2:JCLPCB_THT_LED_D5.0mm"
 			(at 85.09 130.81 0)
 			(effects
 				(font
@@ -5702,7 +5702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "My_Footprints2:JCLPCB_THT_LED_D5.0mm"
 			(at 76.2 130.81 0)
 			(effects
 				(font
@@ -6069,7 +6069,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D5.0mm"
+		(property "Footprint" "My_Footprints2:JCLPCB_THT_LED_D5.0mm"
 			(at 67.31 130.81 0)
 			(effects
 				(font
